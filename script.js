@@ -1,3 +1,5 @@
+const imagens = [`img\bobrossparrot.gif`,`img\explodyparrot.gif`]
+
 let cond = true;
 let num = 0;
 while(cond){
@@ -9,10 +11,18 @@ while(cond){
     }
 }
 
-let contador = 0;
+let carta = `<li class="carta">
+<div class="carta-frente">
+    <img src="./img/front.png">
+</div>
+<div class="carta-virada">
+</div>
+</li>`
 
-while(contador<num){
-    carta = document.querySelector(".carta"+contador)
-    carta.classList.remove("escondido");
-    contador++;
+const ul = document.querySelector("ul");
+
+for(let i=0;i<num;i++){
+    ul.innerHTML += carta;
 }
+
+
