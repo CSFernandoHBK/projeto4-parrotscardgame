@@ -1,0 +1,40 @@
+body{
+    background-color: #E5E5E5;  
+}
+.conteiner{
+    background-color: blue;
+}
+.titulo{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 66px;
+    letter-spacing: -0.004em;
+    color: #75B79E;
+}
+.carta-frente{
+    width: 117px;
+    height: 146px;
+    background: #A7E9AF;
+    border: 1px solid #99CEA8;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carta-frente img{
+    width: 100px;
+}
+.lista-cartas{
+    list-style-type: none;
+    display: flex;
+}
+.area-jogo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.escondido{
+    display: none;
+}
