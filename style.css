@@ -2,24 +2,19 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #E5E5E5;  
-}
-.conteiner{
-    background-color: blue;
+    background-color: #E5E5E5;
+    min-height: 100vh;
 }
 .titulo{
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 56px;
-    line-height: 66px;
-    letter-spacing: -0.004em;
     color: #75B79E;
     margin-top: 40px;
     display: flex;
     justify-content: center;
 }
-.carta-frente{
+.carta-verso{
     width: 117px;
     height: 146px;
     background: #A7E9AF;
@@ -29,19 +24,16 @@ body{
     justify-content: center;
     align-items: center;
 }
-.carta-frente img{
+.carta-verso img{
     width: 100px;
 }
-.lista-cartas{
-    list-style-type: none;
-    display: flex;
+.carta{
+    margin-left: 10px;
 }
-.area-jogo{
-    width: 80%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+ul{
     margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .escondido{
     display: none;
