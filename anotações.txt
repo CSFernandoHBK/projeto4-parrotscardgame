@@ -1,0 +1,6 @@
+-- Receber quantas cartas querem gerar
+-- Gerar a lista com N cartas na ul (ainda sem frente)
+Pegar os N/2 primeiros gifs da array de gifs
+Gerar duas arrays com as N/2 imagens
+Unir as duas arrays e embaralhar
+Distribuir as duas arrays nas N cartas geradas

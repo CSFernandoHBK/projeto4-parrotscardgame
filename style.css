@@ -23,12 +23,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 .carta-verso img{
     width: 100px;
 }
 .carta{
-    margin-left: 10px;
+    margin-left: 20px;
+    display: flex;
 }
 ul{
     margin-top: 40px;
@@ -37,4 +39,15 @@ ul{
 }
 .escondido{
     display: none;
+}
+.imagem-frente{
+    width: 117px;
+    height: 146px;
+    background: blue;
+    border: 1px solid #99CEA8;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backface-visibility: hidden;
 }
