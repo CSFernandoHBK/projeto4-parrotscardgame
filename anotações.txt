@@ -4,7 +4,7 @@
 -- Gerar duas arrays com as N/2 imagens
 -- Unir as duas arrays e embaralhar
 -- Distribuir as duas arrays nas N cartas geradas
--- Criar função para virar a cartas (OBS: TENTAR FAZER O EFEITO DE VIRADA)
+-- Criar função para virar a cartas
 
 Criar condição para comparar duas cartas e verificar se estas são iguais
 

@@ -1,5 +1,0 @@
-Criar uma array que receba as duas cartas com a classe selecionada
-percorrer com um for removendo a classe selecionada
-zerar a array junto com as variaveis cartaselecionada;
-
-
