@@ -1,6 +1,16 @@
 -- Receber quantas cartas querem gerar
 -- Gerar a lista com N cartas na ul (ainda sem frente)
-Pegar os N/2 primeiros gifs da array de gifs
-Gerar duas arrays com as N/2 imagens
-Unir as duas arrays e embaralhar
-Distribuir as duas arrays nas N cartas geradas
+-- Pegar os N/2 primeiros gifs da array de gifs
+-- Gerar duas arrays com as N/2 imagens
+-- Unir as duas arrays e embaralhar
+-- Distribuir as duas arrays nas N cartas geradas
+-- Criar função para virar a cartas (OBS: TENTAR FAZER O EFEITO DE VIRADA)
+
+Criar condição para comparar duas cartas e verificar se estas são iguais
+
+ideias: adicionar uma classe .selecionado a carta que foi selecionada
+
+implementar responsividade:
+    usar media query
+    ajustar tamanho da fonte do titulo
+    ajustar tamanho das cartas

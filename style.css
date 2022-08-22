@@ -14,40 +14,66 @@ body{
     display: flex;
     justify-content: center;
 }
-.carta-verso{
+
+ul{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.carta{
     width: 117px;
     height: 146px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.verso{
+    width: 100%;
+    height: 100%;
     background: #A7E9AF;
     border: 1px solid #99CEA8;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    backface-visibility: hidden;
+    transition: all 0.5s;
+}
 
+img{
+    width: 100%;
 }
-.carta-verso img{
-    width: 100px;
-}
-.carta{
-    margin-left: 20px;
-    display: flex;
-}
-ul{
-    margin-top: 40px;
-    display: flex;
-    flex-wrap: wrap;
-}
-.escondido{
-    display: none;
-}
-.imagem-frente{
-    width: 117px;
-    height: 146px;
-    background: blue;
+
+.frente{
+    width: 100%;
+    height: 100%;
+    background-color: #A7E9AF;
     border: 1px solid #99CEA8;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
     backface-visibility: hidden;
+    transition: all 0.1s;
+}
+
+
+.escondido{
+    opacity: 0;
+    transform:rotatey(180deg);
+}
+
+.virada{
+    transform:rotatey(180deg);
+}
+
+@media (max-width:600px){
+    .titulo{
+        font-size: 36px;
+    }
 }
